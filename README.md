@@ -1,6 +1,6 @@
 # Library Bisection Game
 
-An interactive activity for the ATOR course: identify one hidden target book among 100 books using as few tests as possible. This repository preserves the original game for later reference.
+An interactive activity for the ATOR course -- Lecture 4: identify one missing library property. This repository preserves the original game for later reference.
 
 ## Open the game
 
