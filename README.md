@@ -2,6 +2,12 @@
 
 An interactive activity for learning basic concepts about a bisection method. The task is to identify one missing library property from 100 books. This repository preserves the original game for later reference.
 
+## Scenario
+
+You have a stack of 100 books, and exactly one is library property. An alarm system at the library exit is triggered whenever the books you carry through include that library book. If the selected books do not include it, the alarm stays silent. Your task is to identify the library book using as few trips through the alarm system as possible.
+
+In the game, each test represents taking the selected books through the exit: **red means the alarm is triggered**, and **green means no alarm**.
+
 ## Open the game
 
 Download [library-bisection.html](library-bisection.html), then open the downloaded file in a web browser. GitHub displays the HTML source; download it to play.
@@ -19,7 +25,7 @@ Use **Undo test** to reverse a test, **Restart** to try again with the same targ
 
 ## Connection to bisection
 
-Each test answers a yes/no question: “Is the target in this group?” To make each answer useful, select roughly half of the remaining candidates. A red result keeps the selected half; a green result keeps the other half. Repeat this process until only one candidate remains.
+Each trip through the library exit answers a yes/no question: “Does this group contain library property?” Carry roughly half of the remaining candidate books through the alarm system. If the alarm is triggered (red), the library book is in that half. If there is no alarm (green), it is in the half left behind. Repeat with roughly half of the remaining candidates until only one book remains. This repeated halving is the bisection strategy.
 
 With 100 books, the largest remaining candidate set can shrink as follows:
 
