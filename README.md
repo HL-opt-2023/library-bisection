@@ -1,6 +1,6 @@
 # Library Bisection Game
 
-An interactive activity for the ATOR course -- Lecture 4: identify one missing library property. This repository preserves the original game for later reference.
+An interactive activity for learning basic concepts about a bisection method. The task is to identify one missing library property from 100 books. This repository preserves the original game for later reference.
 
 ## Open the game
 
