@@ -9,7 +9,7 @@ Download [library-bisection.html](library-bisection.html), then open the downloa
 ## How to play
 
 1. Select a group of books by clicking individual books or dragging a selection rectangle. Shift-drag adds to a selection.
-2. Test the selected group. **Red** means the target book is in the group. **Green** means it is not.
+2. Test the selected group. **Red** means the target book (namely, the missing library property) is in the group. **Green** means it is not.
 3. Use the result to narrow the candidates, then select and test another group.
 4. Test the target book by itself to finish.
 
