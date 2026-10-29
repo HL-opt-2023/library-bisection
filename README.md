@@ -1,6 +1,6 @@
 # Library Bisection Game
 
-An interactive teaching activity about efficient search and the bisection principle. Identify the one library-owned book in a stack of 100 books using as few group tests as possible. The original game is preserved unchanged; the companion page provides instructions and teaching notes.
+An interactive teaching activity about efficient search and the bisection principle. Identify the one library-owned book in a stack of 100 books using as few group tests as possible. The original game mechanics are preserved, with illustrated book-cover buttons; the companion page provides instructions and teaching notes.
 
 ## Scenario
 
@@ -10,7 +10,7 @@ In the game, each test represents taking the selected books through the exit: **
 
 ## Open the game
 
-**[Play the game in your browser](https://hl-opt-2023.github.io/library-bisection/)** — no sign-in or installation is required. The companion page reuses the original game and adds instructions and teaching notes.
+**[Play the game in your browser](https://hl-opt-2023.github.io/library-bisection/)** — no sign-in or installation is required. The companion page includes the game with book-cover buttons, instructions, and teaching notes.
 
 For offline use, download [library-bisection.html](library-bisection.html) and open the downloaded file in a web browser. GitHub’s file view displays the HTML source; download it to play.
 
@@ -45,4 +45,4 @@ The worst-case bound assumes exactly one target, accurate alarm signals, and equ
 
 ## Acknowledgment
 
-This game and its accompanying documentation were prepared with help from OpenAI Codex. The original supplied HTML game is preserved unchanged in this repository.
+This game and its accompanying documentation were prepared with help from OpenAI Codex. The original game mechanics are preserved. The selectable books use illustrated covers with spines, page edges, numbered labels, and bookmarks. A blue outline and check mark indicate selected books; faded covers indicate ruled-out books. These visual details provide no clues about the hidden target.
