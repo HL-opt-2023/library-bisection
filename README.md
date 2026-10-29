@@ -10,7 +10,7 @@ In the game, each test represents taking the selected books through the exit: **
 
 ## Open the game
 
-The companion page is in [index.html](index.html). Once GitHub Pages is enabled for this repository, use the live website shown in the repository’s About section.
+**[Play the game in your browser](https://hl-opt-2023.github.io/library-bisection/)** — no sign-in or installation is required. The companion page reuses the original game and adds instructions and teaching notes.
 
 For offline use, download [library-bisection.html](library-bisection.html) and open the downloaded file in a web browser. GitHub’s file view displays the HTML source; download it to play.
 
